@@ -14,32 +14,38 @@ body {
 }
 @media(max-width: 700px) {
     
-
 }
+
+
 .background-header {
     height: 108px;
-    position: absolute;
-    width: 100%;
+
+    width: auto;
     background-position: center top;
     background-repeat: no-repeat;
-    display: table;
+
+    margin-left: 77px;
+    margin-right: 77px;
+ 
 
 }
 .left-head {
     position: relative;
-    display: table-cell;
+    display: inline-block;
     padding-top: 17px;
-    padding-left: 77px;
+   
 
 
 }
 
 .right-head {
-    position: relative;
-    display: table-cell;
+    position: absolute;
+    display: inline-block;
     right: 0;
     margin-top: 40px;
     vertical-align: middle;
+    float: right;
+    margin-right: 77px;
 
 
 }
